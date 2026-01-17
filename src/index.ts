@@ -103,7 +103,7 @@ server.registerTool(
   "echo",
   {
     title: "Echo Tool",
-    description: "Echoes back the input text",
+    description: "Echoes back the input text quickly",
     inputSchema: {
       text: z.string().describe("Text to echo"),
     },
