@@ -81,7 +81,7 @@ server.registerTool(
   "hello",
   {
     title: "Hello Tool",
-    description: "Returns a greeting message",
+    description: "Returns a greeting message quickly",
     inputSchema: {
       name: z.string().describe("Name to greet"),
     },
